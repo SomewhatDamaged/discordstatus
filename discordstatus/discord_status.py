@@ -1,4 +1,4 @@
-#  discordstatuswrapper/discord_status.py
+#  discordstatus/discord_status.py
 
 import requests
 
