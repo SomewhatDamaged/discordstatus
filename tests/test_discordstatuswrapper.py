@@ -1,6 +1,6 @@
-# tests/test_discordstatuswrapper.py
+# tests/test_discordstatus.py
 
-from discordstatuswrapper import DiscordStatus
+from discordstatus import DiscordStatus
 from pytest import fixture
 
 
