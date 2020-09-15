@@ -24,6 +24,6 @@ Properties:
 - components
 - unresolved_incidents
 - all_incidents
-- upcoming_maintenance
-- active_maintenance
-- all_maintenance
+- upcoming_maintenances
+- active_maintenances
+- all_maintenances
