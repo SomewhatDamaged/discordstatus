@@ -1,4 +1,4 @@
-#  discordstatus/discord_status.py
+#  discordstatus/discordstatus.py
 
 import requests
 
