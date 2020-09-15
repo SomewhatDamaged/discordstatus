@@ -31,15 +31,15 @@ class DiscordStatus():
         return self.get('incidents')
 
     @property
-    def upcoming_maintenance(self):
+    def upcoming_maintenances(self):
         return self.get('scheduled-maintenances/upcoming')
 
     @property
-    def active_maintenance(self):
+    def active_maintenances(self):
         return self.get('scheduled-maintenances/active')
 
     @property
-    def all_maintenance(self):
+    def all_maintenances(self):
         return self.get('scheduled-maintenances')
 
     def get(self, target: str = None, force: bool = False):
