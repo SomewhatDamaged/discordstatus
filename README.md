@@ -1,4 +1,8 @@
-# discordstatus
+# PyPi
+
+[Download Here](https://pypi.org/project/DiscordStatus/)
+
+# DiscordStatus
 Wrapper for the Discord Status page's API.
 
 https://discordstatus.com/
