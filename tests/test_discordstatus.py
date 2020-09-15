@@ -177,11 +177,11 @@ def test_discord_all_incidents():
         assert set(incidents_keys()).issubset(datum.keys()), "All keys should be in 'incidents'"
 
 
-def test_discord_upcoming_maintenance():
+def test_discord_upcoming_maintenances():
     """Tests an API call to get discord's upcoming_maintenance"""
 
     status_instance = DiscordStatus()
-    response = status_instance.upcoming_maintenance
+    response = status_instance.upcoming_maintenances
 
     assert isinstance(response, dict)
 
@@ -193,11 +193,11 @@ def test_discord_upcoming_maintenance():
         assert set(scheduled_maintenances_keys()).issubset(datum.keys()), "All keys should be in 'scheduled_maintenances'"
 
 
-def test_discord_active_maintenance():
+def test_discord_active_maintenances():
     """Tests an API call to get discord's active_maintenance"""
 
     status_instance = DiscordStatus()
-    response = status_instance.active_maintenance
+    response = status_instance.active_maintenances
 
     assert isinstance(response, dict)
 
@@ -209,11 +209,11 @@ def test_discord_active_maintenance():
         assert set(scheduled_maintenances_keys()).issubset(datum.keys()), "All keys should be in 'scheduled_maintenances'"
 
 
-def test_discord_all_maintenance():
+def test_discord_all_maintenances():
     """Tests an API call to get discord's all_maintenance"""
 
     status_instance = DiscordStatus()
-    response = status_instance.all_maintenance
+    response = status_instance.all_maintenances
 
     assert isinstance(response, dict)
 
